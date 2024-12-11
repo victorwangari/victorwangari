@@ -1,0 +1,31 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css");
+
+.hero-section{
+    height: 100%;
+    display: flex;
+}
+.hero{
+    margin: auto;
+    margin-left: 25vh ;
+}
+.hero-image{
+    width: 50%;
+}
+.hero-image, .vicky{
+    width: 100vh;
+    margin-bottom: vh;
+    margin-right: 20vh !important;
+}
+.vic{
+    color: crimson;
+}
+.hero-heading{
+    font-weight: 800;
+    font-size: 7vh;
+}
+.hero-h2{
+    font-size: 4vh;
+}
+.hero-text{
+    font-size: 1.7vh;
+}
