@@ -1,0 +1,65 @@
+.skills-heading{
+    text-align: center;
+    font-size: 6vh;
+    margin-bottom: 5vh;
+    padding-top: 10vh;
+    font-weight: 800;
+}
+.span-skill{
+    color: crimson;
+}
+
+.progress-items{
+    margin-left: 3vh;
+    
+}
+.profession-heading, .technical-heading{
+    text-align: center;
+    font-size: 4vh;
+    margin-bottom: 5vh;
+    padding-top: 3vh;
+    font-weight: 800;
+    cursor: pointer;
+}
+.progress{
+    width: 80%;
+    margin-bottom: 1vh;
+    height: 1vh !important
+    
+    
+}
+.progress-bars{
+    
+}
+
+/* Progress Bar Animation */
+.progress-bar {
+    width: 0; /* Start at 0 for animation */
+    transition: width 1.5s ease-in-out; /* Smooth animation */
+  }
+  
+  .progress-bar.animate {
+    width: 100%; /* Will be overridden by inline styles in React */
+  }
+  
+  /* Circle Animation */
+  .circle-svg circle:nth-child(2) {
+    transition: stroke-dashoffset 1.5s ease-in-out;
+  }
+ 
+
+
+/* media queery*/
+
+@media screen and (max-width: 576px) {
+    .skills-heading{
+        font-size: 6vh; 
+    }
+    .profession-heading, .technical-heading{
+        font-size: 4vh;
+    }
+    .progress{
+        width: 90%;
+    }
+    
+}

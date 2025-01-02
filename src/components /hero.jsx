@@ -5,7 +5,7 @@ import "../CSS/hero.css"
 
 function Hero() {
     return(
-        <div className="hero-section bg-black">
+        <div className="hero-section  bg-black">
             <div className="hero">
                 <h1 className="hero-heading text-white">Hi, Its <span className="vic">VIC</span>TOR</h1>
                 <h2 className="text-white hero-h2">
