@@ -22,15 +22,16 @@
 
 @media screen and (max-width: 576px) {
     .vic{
-        width: 58vh;
-        margin-left: 5vh;
+        width: 50vh;
+        margin-left: 4vh;
+    
         
     }
     .edu-p{
         font-size: 2vh;
     }
     .education-subheading{
-        font-size: 3vh;
+        font-size: 4vh;
         margin-top: 6vh;
         font-weight: 900;
     }
@@ -41,3 +42,43 @@
         margin-bottom: 8vh;
     }
 }
+@media screen and (max-width: 768px) {
+    .vic{
+        width: 50vh;
+        margin-left: 4vh;
+    }
+    .edu-p{
+        font-size: 2.5vh;
+    }
+    .education-subheading{
+        font-size: 4vh;
+        margin-top: 6vh;
+        font-weight: 900;
+    }
+    .educations-details{
+        margin-left: 2vh;
+    }
+    .sk{
+        margin-bottom: 8vh;
+    }
+}
+/* @media screen and (max-width: 992px) {
+    .vic{
+        width: 50vh;
+        margin-left: 4vh;
+    }
+    .edu-p{
+        font-size: 2vh;
+    }
+    .education-subheading{
+        font-size: 4vh;
+        margin-top: 1vh;
+        font-weight: 900;
+    }
+    .educations-details{
+        margin-left: 10vh;
+    }
+    .sk{
+        margin-bottom: 8vh;
+    }
+} */
