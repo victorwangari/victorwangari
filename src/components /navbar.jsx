@@ -1,45 +1,97 @@
 import React from "react";
-import '../CSS/nav.css'
+import '../CSS/nav.css';
 
-
-function Navbar() {
-    return (
-        <>
-            <nav class="navbar navbar-expand-lg bg-black">
-                <div class="container-fluid">
-                    <a class=" navbar-brand ms-5" href="#"><span className="text-white">VIC</span>TOR</a>
-                    <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse " id="navbarNav">
-                        <ul class="navbar-nav  ms-auto me-5">
-                            <li class="nav-item ">
-                                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#">Skills</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#">Education</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#">My Work</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#">Download Cv</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#">Contact me</a>
-                            </li>
-                            
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </>
-    )
+function Navbar({ onNavigate }) {
+  return (
+    <>
+      <nav className="navbar navbar-expand-lg bg-black">
+        <div className="container-fluid">
+          <a className="navbar-brand ms-5" href="#">
+            <span className="text-white">VIC</span>TOR
+          </a>
+          <button
+            className="navbar-toggler bg-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav ms-auto me-5">
+              <li className="nav-item">
+                <a
+                  className="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  onClick={() => onNavigate('hero')}
+                >
+                  Home
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link text-white"
+                  href="#"
+                  onClick={() => onNavigate('services')}
+                >
+                  Services
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link text-white"
+                  href="#"
+                  onClick={() => onNavigate('skills')}
+                >
+                  Skills
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link text-white"
+                  href="#"
+                  onClick={() => onNavigate('educations')}
+                >
+                  Education
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link text-white"
+                  href="#"
+                  onClick={() => onNavigate('work')}
+                >
+                  My Work
+                </a>
+              </li>
+              <li className="nav-item">
+              <a
+                  className="nav-link text-white"
+                  href="#"
+                  onClick={() => onNavigate('contact')}
+                >
+                  Download CV
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link text-white"
+                  href="#"
+                  onClick={() => onNavigate('contact')}
+                >
+                  Contact Me
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </>
+  );
 }
+
 export default Navbar;

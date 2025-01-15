@@ -4,10 +4,10 @@
     border-radius: 2vh;
     
 }
-.edu-p{
-    font-size: 2.5vh;
-    
+.ed{
+    font-size: 2.5vh ;
 }
+
 .education-subheading{
     font-size: 4vh;
     font-weight: 900;
@@ -22,38 +22,48 @@
 
 @media screen and (max-width: 576px) {
     .vic{
-        width: 50vh;
-        margin-left: 4vh;
-    
+        width: 100%;
+        margin-left: 2vh !important;
         
     }
-    .edu-p{
-        font-size: 2vh;
+    .ed{
+        font-size: 1.9vh !important;
     }
+    
+    
     .education-subheading{
         font-size: 4vh;
         margin-top: 6vh;
         font-weight: 900;
+        margin-left: 0;
     }
     .educations-details{
-        margin-left: 2vh;
+        margin-left:2vh !important;
     }
     .sk{
         margin-bottom: 8vh;
+        font-size: 5vh;
     }
 }
+
 @media screen and (max-width: 768px) {
     .vic{
-        width: 50vh;
-        margin-left: 4vh;
+        width: 100%;
+        margin-bottom: 1.5vh ;
+        
     }
-    .edu-p{
-        font-size: 2.5vh;
+    .ed{
+        font-size: 1.9vh !important;
     }
+    
+   
     .education-subheading{
         font-size: 4vh;
         margin-top: 6vh;
         font-weight: 900;
+    }
+    .educations-details{
+        margin-left:2vh !important;
     }
     .educations-details{
         margin-left: 2vh;
@@ -62,18 +72,22 @@
         margin-bottom: 8vh;
     }
 }
-/* @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
     .vic{
-        width: 50vh;
-        margin-left: 4vh;
+        width: 100%;
+        margin-left: 2vh;
     }
-    .edu-p{
-        font-size: 2vh;
+    .ed{
+        font-size: 1.9vh !important;
     }
+   
     .education-subheading{
         font-size: 4vh;
         margin-top: 1vh;
         font-weight: 900;
+    }
+    .educations-details{
+        margin-left:2vh !important;
     }
     .educations-details{
         margin-left: 10vh;
@@ -81,4 +95,4 @@
     .sk{
         margin-bottom: 8vh;
     }
-} */
+}
