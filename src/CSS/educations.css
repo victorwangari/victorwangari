@@ -22,8 +22,8 @@
 
 @media screen and (max-width: 576px) {
     .vic{
-        width: 100%;
-        margin-left: 2vh !important;
+        width: 90%;
+        margin-left: 0vh !important;
         
     }
     .ed{
@@ -75,7 +75,7 @@
 @media screen and (max-width: 992px) {
     .vic{
         width: 100%;
-        margin-left: 2vh;
+        margin-left: 10px;
     }
     .ed{
         font-size: 1.9vh !important;
@@ -87,7 +87,8 @@
         font-weight: 900;
     }
     .educations-details{
-        margin-left:2vh !important;
+        margin-left:1vh !important;
+        margin-right: 2vh !;
     }
     .educations-details{
         margin-left: 10vh;

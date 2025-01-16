@@ -9,12 +9,12 @@ function Educations() {
             <h2 className="skills-heading sk text-white">
                 My <span className="span-skill">Education</span>
             </h2>
-            <div className="education row">
-                <div className=" row">
-                    <div className="vic2 col-lg-5 col-xl-5 col-md-12 col-sm-12">
+            <div className=" education row">
+                <div className="row">
+                    <div className="vic2 col-lg-12 col-xl-5 col-md-12 col-sm-12">
                         <img className="vic" src={vic} alt="" />
                     </div>
-                    <div className="educations-details col-lg-5  col-xl-5 col-md-12 col-sm-12">
+                    <div className="educations-details col-lg-12  col-xl-5 col-md-12 col-sm-12">
                         <h3 className="education-subheading text-white">Moringa School</h3>
                         <p className="ed text-white">
                         I pursued my software engineering education at Moringa School from February 2024 to September 2024. The program provided an intensive, hands-on learning experience, covering essential areas like full-stack development, algorithms, data structures, web development, and mobile app development. It was designed to equip me with the technical skills and problem-solving abilities needed to succeed in the tech industry.
