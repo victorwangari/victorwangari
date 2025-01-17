@@ -1,9 +1,11 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css");
 
 .hero-section{
+    width: 100%;
     height: 100%;
     display: flex;
 }
+
 .hero{
     margin: auto;
     margin-left: 25vh ;
@@ -14,10 +16,12 @@
 .hero-image, .vicky{
     width: 100vh;
     margin-bottom: vh;
-    margin-right: 20vh !important;
+   
 }
-.vic{
+.dev{
     color: crimson;
+    margin-left: 0vh;
+
 }
 .hero-heading{
     font-weight: 800;
@@ -60,6 +64,7 @@
     .hero-image, .vicky{
         width: 100%;
         margin-bottom: 1vh;
+    
     }
 
  }
@@ -130,30 +135,31 @@
 }
 @media screen and (max-width: 1200px) {
     .hero-heading{
-        font-size: 6vh;
+        font-size: 4vh;
     }
     .hero-h2{
-        font-size: 4vh;
+        font-size: 3vh;
         margin-top: 2vh;
     }
     .hero-text{
-        font-size: 2.3vh;
+        font-size: 2vh;
         margin-top: 3vh;
         width: 90%;
     }
-    .hero-image, .vicky{
+    
+    .vicky{
         width: 100%;
-        margin-bottom: 1vh;
     }
     .hero{
-        margin-left: 10vh;
-        margin-right: 5vh;
+        margin-left: 4vh;
+        margin-right: 3vh;
         margin-top: 10vh;
     }
     
     .hero-image{
         width: 100%;
         margin-bottom: 1vh;
+        padding-right: 0vh;
     }
     .hero-section{
         height: 100%;
