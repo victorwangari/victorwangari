@@ -1,81 +1,20 @@
 .contact{
-    padding-top: 8vh;
-}
-.contact-left{
-    flex-basis: 35%;
-    margin-left: 20vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 7vh;
 
 }
-.contact-right{
-    flex-basis: 60%;
+.contact-details{
+    margin-top: 5vh;
+    margin-left: 10vh;
 }
-.contact-letf p{
-    margin-top: 30px;
+.email{
+    width: 5vh;
 }
-.contact-letf p i{
-    color: #ff004f;
-    margin-right: 15px;
-    font-size: 25px;
-   
+.ICONS{
+    width: 5vh;
 }
-.social-icon{
-    margin-top: 3px;
-
-}
-
-.social-icon  a{
-    text-decoration: none;
-    font-size: 30px;
-    left: 0;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    color: #ababab;
-    display: inline-block;
-    transition: transform 0.5s;
-}
-.phone{
-    width: 4vh;
-}
-.icon{
-    margin-left: 0;
-    margin-right: 0 !important;
-}
-.social-icon a:hover{
-    color: #ff004f;
-    transform: translateY(-5px);
-}
-.btn.btn2{
-    display: inline-block;
-    background: #ff004f;
-}
-.contact-right form{
-    width: 100%;
-
-}
-form input, form textarea{
-    width: 100%;
-    border: 0;
-    outline: none;
-    background: #262626;
-    padding: 15px ;
-    margin: 15px 0;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 6px;
-
-}
-
-form .btn.btn2 {
-    padding: 14px 60px;
-    font-size: 18px;
-    margin-top: 20px;
-    cursor: pointer;
-}
-.copyright{
-    width: 100%;
-    padding: 25px 0;
-    background: #262626;
-    text-align: center;
-    font-weight: 300;
-    margin-top: 20px ;
+.social-media{
+    margin-top: 5vh;
 }
