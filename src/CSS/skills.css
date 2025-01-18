@@ -29,10 +29,6 @@
     
     
 }
-.progress-bars{
-    
-}
-
 /* Progress Bar Animation */
 .progress-bar {
     width: 0; /* Start at 0 for animation */
@@ -62,5 +58,6 @@
     .progress{
         width: 90%;
     }
+    
     
 }

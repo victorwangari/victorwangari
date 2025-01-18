@@ -1,20 +1,151 @@
-.contact{
-    align-items: center;
-    justify-content: center;
+.contacts {
     display: flex;
-    padding-top: 7vh;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    justify-content: center; /* Centers content */
+}
 
+.contact {
+    padding-top: 7vh;
+    margin-bottom: 5vh;
+    width: 100%;
 }
-.contact-details{
-    margin-top: 5vh;
-    margin-left: 10vh;
+
+.contact-details {
+    padding-top: 10vh;
+    margin-left: 5vw;
 }
-.email{
+
+.contact-form {
+    width: 100%;
+    max-width: 900px; /* Default max width */
+    margin: 0 auto; /* Centers it properly */
+    padding: 10vh 5vw; /* Adds spacing */
+}
+
+.em {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.email {
     width: 5vh;
 }
-.ICONS{
+
+.ICONS {
     width: 5vh;
+    margin-left: 1vh;
 }
-.social-media{
+
+.social-media {
     margin-top: 5vh;
+}
+
+.btncv {
+    margin-top: 5vh;
+}
+
+.form {
+    display: inline-block;
+}
+
+form input, form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.footer {
+    background: #262626;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+}
+
+/* Responsive Design */
+
+/* Small Screens (Phones) */
+@media screen and (max-width: 576px) {
+    .contacts {
+        display: block;
+        width: 100%;
+    }
+    .ICONS {
+        margin-top: 3vh;
+        margin-left: 1vw;
+        margin-bottom: 5vh;
+    }
+    .contact-details {
+        margin-left: 5vw;
+    }
+    .contact-form {
+        width: 100%;
+        max-width: 700px;
+        padding: 5vh 2vw;
+    }
+    .form {
+        display: block;
+    }
+    .social-media {
+        margin-top: 0;
+    }
+}
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+    .contacts {
+        display: block;
+    }
+    .ICONS {
+        margin-top: 3vh;
+        margin-left: 1vw;
+        margin-bottom: 5vh;
+    }
+    .contact-details {
+        margin-left: 5vw;
+    }
+    .contact-form {
+        width: 95%;
+        max-width: 450px;
+        padding: 5vh 3vw;
+    }
+    .form {
+        display: block;
+    }
+    .social-media {
+        margin-top: 0;
+    }
+}
+
+/* Laptops */
+@media screen and (max-width: 992px) {
+    .contact-details {
+        margin-left: 5vw;
+    }
+    .contact-form {
+        width: 90%;
+        max-width: 650px; /* Increased max width for laptops */
+    }
+    .social-media {
+        margin-top: 5vw;
+    }
+}
+
+/* Large Screens */
+@media screen and (max-width: 1200px) {
+    .contact-details {
+        margin-left: 10vw;
+    }
+    .contact-form {
+        width: 100%;
+        max-width: 80vw; /* Increased max width for large screens */
+    }
+    .social-media {
+        margin-top: 5vw;
+    }
 }
