@@ -1,6 +1,7 @@
 import React from "react";
 import '../CSS/nav.css';
 
+
 function Navbar({ onNavigate }) {
   return (
     <>
