@@ -1,14 +1,14 @@
 import React from "react";
 import VickyImage from "../IMG/vicky.png"
 import "../CSS/hero.css"
-import nexus from "../IMG/vicnexus-removebg-preview.png"
+// import nexus from "../IMG/vicnexus-removebg-preview.png"
 
 
 function Hero() {
     return(
         <div className="hero-section  bg-black">
             <div className="hero">
-                <img className="nexus" src={nexus} alt="nexus" />
+                {/* <img className="nexus" src={nexus} alt="nexus" /> */}
                 <h1 className="hero-heading text-white">Hi, Its <span className="dev">VIC</span>TOR</h1>
                 <h2 className="text-white hero-h2">
                     I'm a Web <span className="dev">Developer</span>
