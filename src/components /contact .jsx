@@ -17,10 +17,12 @@ function Contact() {
                     <h4 className="text-white"><img className="email"  src="https://img.icons8.com/?size=100&id=WV326xpsBMyb&format=png&color=000000" alt="" />+254115314344</h4>
                 </div>
                 <div className="social-media">
-                    <a href=""><img className="ICONS" src="https://img.icons8.com/?size=100&id=114445&format=png&color=000000" alt="" /></a>
-                    <a href=""><img className="ICONS" src="https://img.icons8.com/?size=100&id=16713&format=png&color=000000" alt="" /></a>
+                    <a href="https://www.linkedin.com/in/victor-wangari-263802314/"><img className="ICONS" src="https://img.icons8.com/?size=100&id=114445&format=png&color=000000" alt="" /></a>
+                    <a href="https://github.com/victorwangari"><img className="ICONS" src="https://img.icons8.com/?size=100&id=efFfwotdkiU5&format=png&color=000000" alt="" /></a>
+
+                    <a href="https://wa.me/254115314344"><img className="ICONS" src="https://img.icons8.com/?size=100&id=16713&format=png&color=000000" alt="" /></a>
                     <a href=""><img className="ICONS" src="https://img.icons8.com/?size=100&id=BrU2BBoRXiWq&format=png&color=000000" alt="" /></a>
-                    <a href=""><img className="ICONS" src="https://img.icons8.com/?size=100&id=3veRWJpxPPDH&format=png&color=000000" alt="" /></a>
+                    <a href="https://www.tiktok.com/@dev_vicky?lang=en"><img className="ICONS" src="https://img.icons8.com/?size=100&id=3veRWJpxPPDH&format=png&color=000000" alt="" /></a>
                 
                 </div>
                 <div>
