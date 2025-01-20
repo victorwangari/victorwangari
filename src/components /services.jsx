@@ -39,7 +39,7 @@ function Services(){
                 </div>
                 <div>
                     <i class="fa-solid fa-crop-simple"></i>
-                    <h2 className="text-white">Poter & Logo design</h2>
+                    <h2 className="text-white">Poster & Logo design</h2>
                     <p className="text-white">
                         I bring my passion for creativity and expertise in poster and logo design to help you establish
                         a bold and memorable visual identity. As an experienced designer, I am dedicated to creating

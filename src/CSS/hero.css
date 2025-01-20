@@ -44,6 +44,10 @@
         height: 100%;
         display: inline-block;
     }
+    .nexus{
+        width: 100%;
+        margin-top: 10vh;
+    }
     .hero{
         margin-left: 12vh;
         margin-right: auto;
