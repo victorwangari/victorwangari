@@ -15,7 +15,7 @@ function Hero() {
                 </h2>
                 <p className="hero-text text-white">I'm a passionate software engineer with a strong foundation in building user-centric applications. I graduated from Moringa School, where I honed my skills in modern web technologies and best practices. With a focus on creating clean, efficient code and seamless user experiences, I'm always eager to tackle new challenges and continue growing in the tech industry.</p>
                 <div>
-                <button type="button" class="btn btn-warning">Hire Me</button>
+                {/* <button  type="button" class="btn btn-warning">Hire Me</button> */}
                 </div>
             </div>
             <div className="hero-image">
