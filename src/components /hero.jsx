@@ -1,7 +1,7 @@
 import React from "react";
 import VickyImage from "../IMG/vicky.png"
 import "../CSS/hero.css"
-import nexus from "../IMG/vicnexus-removebg-preview.png"
+import nexus from "../IMG/OPTI-NEXUS-removebg-preview.png"
 
 
 function Hero() {
