@@ -37,18 +37,18 @@ function Navbar({ onNavigate }) {
                 <a
                   className="nav-link text-white"
                   href="#"
-                  onClick={() => onNavigate('services')}
+                  onClick={() => onNavigate('skills')}
                 >
-                  Services
+                  Skills
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className="nav-link text-white"
                   href="#"
-                  onClick={() => onNavigate('skills')}
+                  onClick={() => onNavigate('services')}
                 >
-                  Skills
+                  Services
                 </a>
               </li>
               <li className="nav-item">
